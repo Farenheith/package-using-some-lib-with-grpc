@@ -1,0 +1,1 @@
+{"dependencies":{"@grpc/proto-loader":"^0.6.1","grpc":"^1.24.6","some-lib-with-grpc":"github:farenheith/some-lib-with-grpc#main"}}

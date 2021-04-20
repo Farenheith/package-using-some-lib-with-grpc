@@ -1,0 +1,28 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/home/thiago/projects/personal/package-using-some-lib-with-grpc"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/thiago/.pnpm-store/v3",
+    "virtualStoreDir": "/home/thiago/projects/personal/package-using-some-lib-with-grpc/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/thiago/projects/personal/package-using-some-lib-with-grpc",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "message": {
+      "pkgsStack": []
+    },
+    "err": {
+      "name": "Error",
+      "message": "Could not resolve master to a commit of git://github.com/farenheith/some-lib-with-grpc.git.",
+      "stack": "Error: Could not resolve master to a commit of git://github.com/farenheith/some-lib-with-grpc.git.\n    at resolveRefFromRefs (/home/thiago/.nvm/versions/node/v10.24.0/lib/node_modules/pnpm/dist/pnpm.js:72015:15)\n    at resolveRef (/home/thiago/.nvm/versions/node/v10.24.0/lib/node_modules/pnpm/dist/pnpm.js:72009:12)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    }
+  }
+}
